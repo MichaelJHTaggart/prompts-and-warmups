@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+.background {
+ transform: rotate(-15deg);
+ position: fixed;
+ right: -20px;
+ top: -100px;
+ background-color: #61dafb9a;
+ width: 120vh;
+ height: 50vh;
+}

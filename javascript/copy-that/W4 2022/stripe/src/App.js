@@ -7,7 +7,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-  
+      
       <nav>
         <img src={logo} className="App-logo" alt="logo" />
         <ul>
@@ -20,10 +20,14 @@ function App() {
         <button>Sign in &gt;</button>
       </nav>
      
-       
+       <canvas className="background">
+        
+       </canvas>
       
-      
-
+      <h1>Payments infrastructure for the internet</h1>
+      <p>
+      Millions of companies of all sizes—from startups to Fortune 500s—use Stripe’s software and APIs to accept payments, send payouts, and manage their businesses online.
+      </p>
     </div>
   );
 }
