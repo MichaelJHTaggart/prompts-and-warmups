@@ -39,9 +39,30 @@
 .background {
  transform: rotate(-15deg);
  position: fixed;
- right: -20px;
- top: -100px;
+ right: -200px;
+ top: -120px;
  background-color: #61dafb9a;
- width: 120vh;
- height: 50vh;
+ width: 300vh;
+ height: 70vh;
+ z-index: -1;
+}
+.hero{
+  display: flex;
+  justify-content: space-around;
+}
+.small{
+  height: 60vh;
+  width: 40vh;
+}
+.phone{
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  border-color:  grey;
+  border-width: 1px;
+  border-style: solid;
+}
+.phone label{
+  display: flex;
+  justify-content: center;
 }
