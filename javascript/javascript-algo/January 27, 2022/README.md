@@ -18,3 +18,6 @@ elevator(0, 1, 1); // => "right"
 elevator(0, 1, 2); // => "right"
 elevator(0, 0, 0); // => "right"
 elevator(0, 2, 1); // => "right"
+
+
+![Screen Shot 2022-01-27 at 9 24 45 AM](https://user-images.githubusercontent.com/63270278/151400527-66cebad0-ae3c-4eb1-bc74-ebdc4b9805ac.png)
