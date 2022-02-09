@@ -1,0 +1,16 @@
+.banner {
+  background-color: #f2faff;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 10px;
+  width: 100vw;
+  height: 6vh;
+}
+.banner-item {
+  margin-left: 20px;
+}
+.exit{
+  position: fixed;
+  right: 20px;
+}
