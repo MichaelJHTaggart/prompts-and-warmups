@@ -1,0 +1,48 @@
+.Header {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  background: black;
+  z-index: 1;
+}
+.List {
+  list-style: none;
+  display: flex;
+  color: #bff1ce;
+}
+
+.List li {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  background: none;
+  transition: all 0.4s ease-in-out;
+  z-index: 3;
+}
+.List li div {
+  padding-left: 10px;
+}
+
+.List li:active div {
+  transition: 0.3s;
+  transform: rotate(90deg);
+}
+
+.Header li:hover {
+  color: #ffee;
+  opacity: 1;
+  z-index: 2;
+  background: url('/public/images/listItems.png') no-repeat 50% 100%/100%;
+  transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+.Button {
+  color: white;
+  height: 40px;
+  width: 200px;
+  border-color: #1f323b;
+  background-color: #476d5d;
+}
+
+.Button:hover {
+  background-color: #426556a2;
+}
